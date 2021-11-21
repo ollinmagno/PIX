@@ -1,0 +1,15 @@
+{
+  "name": "PIXBancoXYZ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pix.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
