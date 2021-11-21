@@ -70,8 +70,8 @@ describe("Casos de teste da área PIX", () => {
   () => {
     expect(PIX.realizarPix(1, '82988008800', '-50')).toBe('Valor inválido');
   });
-  test('Caso 4.5: verificar se PIX não foi realizado por causa de valor digitado fora do padrão',
+  test('Caso 4.5: verificar se PIX não foi realizado por causa de campo vazio',
   () => {
-    expect(PIX.realizarPix(1, '82988008800', '50,25')).toBe('Valor inválido');
+    expect(PIX.realizarPix(1, '82988008800', '')).toBe('Valor inválido');
   });
 });
