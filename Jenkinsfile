@@ -7,7 +7,7 @@ pipeline {
         
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/ollinmagno/PIX-BANCO-XYZ'
+        git 'https://github.com/ollinmagno/nodejs-unit-test'
       }
     }
         
